@@ -22,15 +22,24 @@ function randomPlay() {
 ////////////////////////////////////////////////
 
 function getPlayerMove(move) {
-    // If a move is given, your expression should evaluate to that move.
-    // If move is not specified / is null, your expression should run getInput()
-    return /* Your Expression */;
+    // Write an expresion that operates on a variable called 'move'
+    // If a 'move' has a value, your expression should evaluate to that value.
+    // However, if 'move' is not specified / is null, your expression should equal 'getInput()'.
+    return {
+        var playerMove = prompt();
+        playerMove = playerMove || function getInput();
+    }
 }
 
+    
+
 function getComputerMove(move) {
-    // If a move is given, your expression should evaluate to that move.
-    // If move is not specified / is null, your expression should run randomPlay()
-    return /* Your Expression */;
+    // Write an expression that operates on a variable called 'move'
+    // If a 'move' has a value, your expression should evaluate to that value.
+    // However, if 'move' is not specified / is null, your expression should equal 'randomPlay()'
+    return {
+        var computerMove = computerMove || function randomPlay();
+    }
 }
 
 function getWinner(playerMove,computerMove) {
