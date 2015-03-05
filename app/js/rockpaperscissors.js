@@ -79,9 +79,9 @@ function playToFive() {
         var computerMove = getComputerMove(randomPlay());
         var winner = getWinner(playerMove, computerMove);
             if (winner === "Player") {
-                playerWins += 1;
+                return playerWins += 1;
             } else {
-                computerWins +=1;
+                return computerWins +=1;
             }
         console.log("Player chose " + playerMove + " while Computer chose " + computerMove);
         console.log("The score is currently " + playerWins + " to " + computerWins + "\n");
